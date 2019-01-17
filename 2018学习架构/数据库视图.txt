@@ -1,0 +1,1 @@
+create VIEW 视图名称 as select 语句

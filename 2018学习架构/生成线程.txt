@@ -1,0 +1,27 @@
+继承Thread
+实现Runnable
+内部类(属于上面两种,为了只是让此类执行一侧的线程)
+
+
+new Thread (
+
+new Runnable(){
+
+run
+
+}
+
+){
+
+sub
+
+
+}
+
+执行的是子类的,多态覆盖父类的run方法
+
+实现callable接口抛出异常返回数据
+
+	call方法;
+
+	futuretask  是对Runnable的封装
